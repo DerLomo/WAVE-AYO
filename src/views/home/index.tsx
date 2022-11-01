@@ -34,8 +34,12 @@ export const HomeView: FC = ({ }) => {
           Wave AYO <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
         </h1>
         <h4 className="md:w-full text-center text-slate-300 my-2">
-          <p>Arbitrage made simple</p>
-          Just deposit some funds in the vault and start earning passive income from our arbitrage strategies
+          <p>Arbitraged Yield Optimizer</p>
+          Get the best APY% of Solana with our next level strategies, 
+        </h4>
+        <h4 className="md:w-full text-center text-slate-300 my-2">
+          <p>How it works?</p>
+         Wave AYO strategies is based on the how the huge representation the vaults in the liquidity pools, thanks to this % of PL in the vaults, we increase the number of arbitrage opportunities. 
         </h4>
         <h4 className="md:w-full text-center text-slate-300 my-2">
           Get some Devnet SOL and try out our new features!
