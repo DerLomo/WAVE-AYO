@@ -39,7 +39,8 @@ export const HomeView: FC = ({ }) => {
         </h4>
         <h4 className="md:w-full text-center text-slate-300 my-2">
           <p>How it works?</p>
-         Wave AYO strategies is based on the how the huge representation the vaults in the liquidity pools, thanks to this % of PL in the vaults, we increase the number of arbitrage opportunities. 
+         Wave AYO strategies is based on how the high can the vaul representation be in the liquidity pools, thanks to this % of PL in the vaults, we increase the number of arbitrage opportunities as the cost for each arbitrage is reduced.
+          Therefore as more capital in the vaults, the arbitrage opportunities grow and so does the total APY% 
         </h4>
         <h4 className="md:w-full text-center text-slate-300 my-2">
           Get some Devnet SOL and try out our new features!
