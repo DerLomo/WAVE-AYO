@@ -35,12 +35,12 @@ export const HomeView: FC = ({ }) => {
         </h1>
         <h4 className="md:w-full text-center text-slate-300 my-2">
           <p>Arbitraged Yield Optimizer</p>
-          Get the best APY% of Solana with our next level strategies, 
+          Get the best APY% of Solana with our next level strategies.
         </h4>
         <h4 className="md:w-full text-center text-slate-300 my-2">
           <p>How it works?</p>
-         Wave AYO strategies is based on how the high can the vaul representation be in the liquidity pools, thanks to this % of PL in the vaults, we increase the number of arbitrage opportunities as the cost for each arbitrage is reduced.
-         \n Therefore as more capital in the vaults, the arbitrage opportunities grow and so does the total APY% 
+         Wave AYO strategies is based on how high can the vault's representation be in the liquidity pools, thanks to this % of PL in the vaults, we increase the number of arbitrage opportunities as the cost for each arbitrage is reduced.
+         \n Therefore the more capital in the vaults, the more arbitrage opportunities, and so does the total APY% 
         </h4>
         <h4 className="md:w-full text-center text-slate-300 my-2">
           Get some Devnet SOL and try out our new features!
