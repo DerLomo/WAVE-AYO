@@ -6,10 +6,10 @@ const Vault: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Wave AYO</title>
+        <title>A-YO</title>
         <meta
           name="description"
-          content="Wave AYO"
+          content="A-YO"
         />
       </Head>
       <VaultView />

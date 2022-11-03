@@ -14,11 +14,42 @@ export const AppBar: FC = props => {
       {/* NavBar / Header */}
       <div className="navbar flex flex-row md:mb-2 shadow-lg bg-neutral text-neutral-content">
         <div className="navbar-start">
-          <label htmlFor="my-drawer" className="btn btn-square btn-ghost">
-            <svg className="inline-block w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </label>  
+          <div className='drawer'>
+            
+            <div className="drawer-content">
+              <label htmlFor="my-drawer" className="btn btn-square btn-ghost">
+                <svg className="inline-block w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </label>
+            </div>
+          
+            {/*<div className='drawer-side'>
+              <label htmlFor='my-drawer' className='drawer-overlay'></label>
+              <ul className='menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content'>
+                <li>
+                  <Link href="/">
+                    <a>Home</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/vault">
+                    <a>Vault</a>
+                  </Link>
+                </li>
+              <li>
+                <Link href="/swap">
+                  <a>Swap</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/whitepaper">
+                  <a>Whitepaper</a>
+                </Link>
+              </li>
+              </ul>
+            </div>  */}
+          </div>
         </div>
 
         {/* Nav Links */}
@@ -29,6 +60,12 @@ export const AppBar: FC = props => {
             </Link>
             <Link href="/vault">
               <a className="btn btn-ghost btn-sm rounded-btn">Vault</a>
+            </Link>
+            <Link href="/swap">
+              <a className="btn btn-ghost btn-sm rounded-btn">Swap</a>
+            </Link>
+            <Link href="/whitepaper">
+              <a className="btn btn-ghost btn-sm rounded-btn">Whitepaper</a>
             </Link>
           </div>
         </div>

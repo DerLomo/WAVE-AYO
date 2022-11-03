@@ -30,17 +30,20 @@ export const HomeView: FC = ({ }) => {
 
     <div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
-        <h1 className="text-center text-5xl md:pl-16 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-          Wave AYO <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
+        <h1 className="text-center text-5xl md:pl-10 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+          A-YO <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
         </h1>
         <h4 className="md:w-full text-center text-slate-300 my-2">
-          <p>Arbitraged Yield Optimizer</p>
-          Get the best APY% of Solana with our next level strategies.
+          <p className='text-center text-3xl my-5'>Arbitrage Yield Optimizer</p>
+          Get the best APY% of Solana with our next level strategies
         </h4>
         <h4 className="md:w-full text-center text-slate-300 my-2">
-          <p>How it works?</p>
-         Wave AYO strategies is based on how high can the vault's representation be in the liquidity pools, thanks to this % of PL in the vaults, we increase the number of arbitrage opportunities as the cost for each arbitrage is reduced.
-         \n Therefore the more capital in the vaults, the more arbitrage opportunities, and so does the total APY% 
+          <p className='text-center text-3xl my-5'>How it works?</p>
+         A-YO strategies are based on how high can the vault's representation be in the liquidity pools, thanks to this % of PL in the vaults, 
+         we increase the number of arbitrage opportunities as the cost for each arbitrage is reduced. 
+        </h4>
+        <h4 className="md:w-full text-center text-slate-300 my-2">
+          Therefore the more capital in the vaults, the more arbitrage opportunities, and so does the total APY%
         </h4>
         <h4 className="md:w-full text-center text-slate-300 my-2">
           Get some Devnet SOL and try out our new features!

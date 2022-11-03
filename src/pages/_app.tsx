@@ -14,7 +14,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <>
           <Head>
-            <title>Wave AYO</title>
+            <title>A-YO</title>
           </Head>
 
           <ContextProvider>
