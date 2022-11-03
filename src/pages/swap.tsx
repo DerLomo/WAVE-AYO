@@ -1,20 +1,20 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { VaultView } from "../views";
+import { ComingSoonView } from "../views";
 
-const Vault: NextPage = (props) => {
+const Swap: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Wave AYO</title>
+        <title>A-YO</title>
         <meta
           name="description"
-          content="Wave AYO"
+          content="A-YO"
         />
       </Head>
-      <VaultView />
+      <ComingSoonView />
     </div>
   );
 };
 
-export default Vault;
+export default Swap;

@@ -9,14 +9,12 @@ export const SendSOL: FC = () => {
     const { publicKey, sendTransaction } = useWallet();
     const [amount, setAmount] = useState(0);
 
-    const handleChange = (e) => {
+    const handleChange = async (e) => {
         console.log("target", e.target.value)
-        setAmount(e.target.value);
-        setAmount((amt) => {
-            console.log("refreshed amt", amount)
-            return amt
+        await setAmount((prevalue) => {
+            return (e.target.value)
         })
-        console.log("amt", amount)
+        console.log("amt after setAmount", amount)
     }
 
     const onChange = useCallback(
@@ -69,7 +67,7 @@ export const SendSOL: FC = () => {
                 <span className="label-text">Enter amount</span>
             </label>
             <label className="input-group-vertical">
-                <input type="number" step="0.01" placeholder="0.01" className="input input-bordered" onChange={onChange}/>
+                <input type="number" step="0.01" placeholder="0.01" className="input input-bordered" onChange={(e) => handleChange(e)}/>
             </label>
             <button className="btn btn-round animate-pulse disabled:animate-none bg-gradient-to-r from-[#9945FF] to-[#14F195] hover:from-pink-500 hover:to-yellow-500"
                 onClick={onClick} disabled={!publicKey}
