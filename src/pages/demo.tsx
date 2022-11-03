@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { ComingSoonView } from "../views";
 
-const Vault: NextPage = (props) => {
+const Demo: NextPage = (props) => {
   return (
     <div>
       <Head>
@@ -17,4 +17,4 @@ const Vault: NextPage = (props) => {
   );
 };
 
-export default Vault;
+export default Demo;
